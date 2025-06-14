@@ -46,7 +46,7 @@ const AddProduct = () => {
         </div>
         <div className="flex flex-col gap-1 max-w-md">
           <label className="text-base font-medium" htmlFor="product-name">
-            Product Name
+            Nome do Produto
           </label>
           <input
             id="product-name"
@@ -63,7 +63,7 @@ const AddProduct = () => {
             className="text-base font-medium"
             htmlFor="product-description"
           >
-            Product Description
+            Descrição do Produto
           </label>
           <textarea
             id="product-description"
@@ -78,7 +78,7 @@ const AddProduct = () => {
         <div className="flex items-center gap-5 flex-wrap">
           <div className="flex flex-col gap-1 w-32">
             <label className="text-base font-medium" htmlFor="category">
-              Category
+              Categoria
             </label>
             <select
               id="category"
@@ -97,7 +97,7 @@ const AddProduct = () => {
           </div>
           <div className="flex flex-col gap-1 w-32">
             <label className="text-base font-medium" htmlFor="product-price">
-              Product Price
+              Preço do Produto
             </label>
             <input
               id="product-price"
@@ -111,7 +111,7 @@ const AddProduct = () => {
           </div>
           <div className="flex flex-col gap-1 w-32">
             <label className="text-base font-medium" htmlFor="offer-price">
-              Offer Price
+              Preço da oferta
             </label>
             <input
               id="offer-price"
@@ -125,7 +125,7 @@ const AddProduct = () => {
           </div>
         </div>
         <button type="submit" className="px-8 py-2.5 bg-orange-600 text-white font-medium rounded">
-          ADD
+          Adicionar
         </button>
       </form>
       {/* <Footer /> */}
